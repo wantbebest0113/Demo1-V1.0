@@ -1,0 +1,7 @@
+//第一:EventCenter 事件中心管理器
+：用于观察者模式的事件解耦模式的管理器
+  主要函数有AddEventListener<T> 、EventTrigger<T>，主要处理事件问题
+  通过字典 private Dictionary<string, EventInfoBase> eventDic = new Dictionary<string, EventInfoBase>();存储Action事件。
+//第二：UIManager UGUI的单例模式管理 主要处理唯一性的Panel面板UI
+  主要函数ShowPanel<T> 、 HidePanel<T> (T为面板的类)
+//第三：
